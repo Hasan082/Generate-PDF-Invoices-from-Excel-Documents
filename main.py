@@ -28,7 +28,7 @@ for filePath in filePaths:
 
     # Add header to the pdf
     pdf.ln(6)
-    columns = list(df.columns)
+    columns = df.columns
     columns = [column.replace("_", " ").title() for column in columns]
     pdf.set_font(family="Times", size=10, style="B")
     pdf.set_text_color(80, 80, 80)
