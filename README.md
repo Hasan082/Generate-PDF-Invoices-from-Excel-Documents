@@ -52,7 +52,7 @@ python main.py
 
 If you have an Excel file named `1234-2023.01.01.xlsx` in the `invoices` directory with the following content:
 
-| product_id | product_name   | amount_purchased | price_per_unit | total_price |
+| Product Id | Product Name   | Amount Purchased | Price Per Unit | Total Price |
 |------------|----------------|------------------|----------------|-------------|
 | 101        | Product A      | 5                | 10             | 50          |
 | 102        | Product B      | 2                | 20             | 40          |
